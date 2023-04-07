@@ -1,0 +1,84 @@
+body {
+  background-color: #066163;
+}
+h2 {
+  text-align: center;
+  background-color: #cdbe78;
+  color: #383838;
+}
+.card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0px;
+  overflow: hidden;
+  background-color: #383838;
+  text-align: center;
+  display: flex;
+}
+
+a {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  border: 2px solid white;
+  color: #383838;
+}
+li a {
+  font-weight: bolder;
+  display: block;
+  color: 383838;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #cdbe78;
+  color: #066163;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+.idTh {
+  width: 35%;
+}
+.FnTh {
+  width: 20%;
+}
+.LnTh {
+  width: 20%;
+}
+.AgTh {
+  width: 5%;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mainTable th {
+  background-color: #cdbe78;
+  color: #141313;
+}
+.userTable th {
+  background-color: #383838;
+  color: #cdbe78;
+}
+.UpTh button,
+.DeTh button {
+  font-weight: bold;
+  border-radius: 5px;
+  color: #066163;
+  background-color: #cdbe78;
+  margin-right: 10px;
+  cursor: pointer;
+}
